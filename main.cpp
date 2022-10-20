@@ -181,6 +181,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 			if (scene == TITLE)
 			{
 				Novice::ScreenPrintf(0, 0, "scene = %d", scene);
+				Novice::ScreenPrintf(0, 20, "Hello");
 			}
 
 			//描画処理ここまで
